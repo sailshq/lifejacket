@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-lifejacket",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Redirect http:// to https:// in your Sails.js app.",
   "main": "index.js",
   "scripts": {
