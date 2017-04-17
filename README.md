@@ -55,10 +55,10 @@ To report a bug, [click here](https://sailsjs.com/bugs).
 
 ## License
 
-This [core adapter](https://sailsjs.com/documentation/concepts/extending-sails/adapters/available-adapters) is available under the **MIT license**.
+This [community hook](https://sailsjs.com/documentation/concepts/extending-sails/hooks) is available under the **MIT license**.
 
-As for [Waterline](http://waterlinejs.org) and the [Sails framework](https://sailsjs.com)?  They're free and open-source under the [MIT License](https://sailsjs.com/license).
+As for the [Sails framework](https://sailsjs.com)?  It's free and open-source under the [MIT License](https://sailsjs.com/license).
 
-&copy; [The Sails Co.](https://sailsjs.com/about)
+&copy; [The Sails Company](https://sailsjs.com/about)
 
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
