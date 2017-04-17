@@ -1,0 +1,27 @@
+{
+  "name": "sails-hook-lifejacket",
+  "version": "1.0.0",
+  "description": "Redirect http:// to https:// in your Sails.js app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+    "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+  },
+  "keywords": [
+    "ssl",
+    "tls",
+    "sails.js",
+    "https",
+    "redirect"
+  ],
+  "author": "Mike McNeil (https://sailsjs.com/studio)",
+  "license": "",
+  "devDependencies": {
+    "eslint": "3.5.0"
+  },
+  "dependencies": {
+    "@sailshq/lodash": "3.10.2",
+    "flaverr": "1.1.1"
+  }
+}
