@@ -27,9 +27,9 @@ lifejacket: {
 
   // Must be set manually if `ensureHttps` is enabled.
   // > Should be provided as a string, like `foo.example.com`.
-  host: 'mysweetsite.com'
+  host: 'mysweetsite.com',
 
-};
+},
 ```
 
 Then, when you lift in production, `http://` requests should redirect to `https://`.
