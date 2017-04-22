@@ -16,10 +16,11 @@
     "redirect"
   ],
   "author": "Mike McNeil (https://sailsjs.com/studio)",
-  "license": "",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "3.5.0"
   },
+  "repository": "https://github.com/sailshq/sails-hook-lifejacket",
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
     "flaverr": "^1.1.1"
