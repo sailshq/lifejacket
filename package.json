@@ -21,7 +21,11 @@
     "eslint": "3.5.0"
   },
   "dependencies": {
-    "@sailshq/lodash": "3.10.2",
-    "flaverr": "1.1.1"
+    "@sailshq/lodash": "^3.10.2",
+    "flaverr": "^1.1.1"
+  },
+  "sails": {
+    "isHook": true,
+    "hookName": "lifejacket"
   }
 }
