@@ -1,8 +1,8 @@
 {
-  "name": "sails-hook-lifejacket",
-  "version": "1.0.3",
-  "description": "Redirect http:// to https:// in your Sails.js app.",
-  "main": "index.js",
+  "name": "lifejacket",
+  "version": "1.0.4",
+  "description": "Redirect http:// to https:// in your Sails.js app, and (optionally) expose a cert renewal route for leveraging free LetsEncrypt SSL certificates.",
+  "main": "./lib/lifejacket.js",
   "scripts": {
     "test": "npm run lint && npm run custom-tests && echo 'Done.'",
     "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
@@ -10,20 +10,26 @@
   },
   "keywords": [
     "ssl",
+    "letsencrypt",
+    "lets-encrypt",
     "tls",
     "sails.js",
     "https",
     "redirect"
   ],
-  "author": "Mike McNeil (https://sailsjs.com/studio)",
+  "author": "Mike McNeil (@mikermcneil)",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "3.5.0"
-  },
-  "repository": "https://github.com/sailshq/sails-hook-lifejacket",
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
-    "flaverr": "^1.1.1"
+    "flaverr": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sailshq/lifejacket.git"
+  },
+  "devDependencies": {
+    "eslint": "4.11.0",
+    "mocha": "3.0.2"
   },
   "sails": {
     "isHook": true,
