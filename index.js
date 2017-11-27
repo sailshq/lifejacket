@@ -193,9 +193,9 @@ module.exports = function lifejacket(sails) {
             // If this is https://, then we're good.
             // (we'll go ahead and allow the request through)
             return next();
+          } else if (req.url.match(/^\/\.well-known\/acme-challenge\/(.+)/)) {
             // Always allow unsecure (http://) requests to the ACME challenge
             // request endpoint.
-          } else if (req.url.match(/^\/\.well-known\/acme-challenge\/(.+)/)) {
             return next();
           } else {
             // But otherwise, redirect to the https:// equivalent.
