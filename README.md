@@ -37,13 +37,13 @@ lifejacket: {
   // setting it to `true`.
   ensureHttps: true,
 
-  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   // If you don't already have the conventional `sails.config.custom.baseUrl` set,
   // then uncomment the following `host` config.  This must be set manually if `ensureHttps`
   // is enabled.
   // > Should be provided as a string, like `foo.example.com`.
   // host: 'mysweetsite.com',
-  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 },
 ```
@@ -56,7 +56,7 @@ Then, when you lift in production, `http://` requests should redirect to `https:
 See [Extending Sails > Hooks](https://sailsjs.com/documentation/concepts/extending-sails/hooks) in the [Sails documentation](https://sailsjs.com/documentation), or check out [recommended support options](https://sailsjs.com/support).
 
 
-## Contributing &nbsp; [![Build Status](https://travis-ci.org/sailshq/lifejacket.svg?branch=master)](https://travis-ci.org/sailshq/lifejacket) &nbsp; [![Build status on Windows](https://ci.appveyor.com/api/projects/status/u0i1o62tsw6ymbjd/branch/master?svg=true)](https://ci.appveyor.com/project/mikermcneil/lifejacket/branch/master)
+## Contributing &nbsp; [![Build Status](https://travis-ci.org/sailshq/lifejacket.svg?branch=master)](https://travis-ci.org/sailshq/lifejacket)
 
 Please observe the guidelines and conventions laid out in the [Sails project contribution guide](https://sailsjs.com/documentation/contributing) when opening issues or submitting pull requests.
 
