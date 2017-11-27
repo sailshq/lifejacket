@@ -9,9 +9,9 @@ Redirect http:// to https:// in your Node.js/Sails.js application to ensure TLS/
 
 -----------------------------------
 
-#### Disclaimer
+## Disclaimer
 
-If you can get away with it, I'd always recommend buying a wildcard SSL cert and then using a tool like Cloudflare to handle SSL redirects automatically.**  The convenience and lack of _yet another thing to maintain_ makes the addition of another layer of infrastructure _well worth it_, IMO.  (Here's the [cheat sheet](https://gist.github.com/mikermcneil/d3114517e4c7263b145274ea4ad3d0cb) I use when setting up Cloudflare with Heroku.)
+**If you can get away with it, I'd always recommend simply buying a wildcard SSL cert and then using a tool like Cloudflare to handle SSL redirects automatically.**  The convenience and lack of _yet another thing to maintain_ makes the addition of another layer of infrastructure _well worth it_, IMO.  (Here's the [cheat sheet](https://gist.github.com/mikermcneil/d3114517e4c7263b145274ea4ad3d0cb) I use when setting up Cloudflare with Heroku.)
 
 That said, this hook exists for those situations where buying a wildcard cert (~$100-150 per year) or setting up a free Cloudflare account is not an option, for whatever reason.
 
