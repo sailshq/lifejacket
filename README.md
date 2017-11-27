@@ -27,7 +27,7 @@ To install this hook in your Sails app, just run:
 $ npm install lifejacket --save
 ```
 
-Then set the following configuration (probably in your config/env/production.js file):
+Then set the following configuration (probably in your `config/env/production.js` file):
 
 ```js
 lifejacket: {
@@ -37,9 +37,13 @@ lifejacket: {
   // setting it to `true`.
   ensureHttps: true,
 
-  // Must be set manually if `ensureHttps` is enabled.
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  // If you don't already have the conventional `sails.config.custom.baseUrl` set,
+  // then uncomment the following `host` config.  This must be set manually if `ensureHttps`
+  // is enabled.
   // > Should be provided as a string, like `foo.example.com`.
-  host: 'mysweetsite.com',
+  // host: 'mysweetsite.com',
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 },
 ```
