@@ -1,6 +1,6 @@
 {
   "name": "lifejacket",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Redirect http:// to https:// in your Sails.js app, and (optionally) expose a cert renewal route for leveraging free LetsEncrypt SSL certificates.",
   "main": "./lib/lifejacket.js",
   "scripts": {
